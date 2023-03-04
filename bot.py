@@ -183,30 +183,6 @@ def handle_text(message):
 def system_info(message):
     if message.from_user.username in config.admins:
 
-        print(psutil.net_if_addrs())
-        print(type(psutil.net_if_addrs()))
-
-        data, value = psutil.net_if_addrs()
-        print(' - test - ', data.get('OpenVPN Wintun'))
-        print()
-
-        # for x in data.items():
-        #     print(x)
-        #     key = x[0]
-        #
-        #     for y in data.values():
-        #         print(y)
-        #         if
-            # print(line)
-            # print('название', line[0])
-            # print(data.values())
-
-
-
-
-        # for y in psutil.net_connections():
-        #     print(y)
-
         my_system = platform.uname()
         virtual_memory = psutil.virtual_memory()
         disk_usage = psutil.disk_usage('/')
