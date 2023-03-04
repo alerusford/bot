@@ -1,0 +1,426 @@
+
+
+Sat Mar  4 11:10:41 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 268, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 178, in system_info
+    print(system_info.my_system.system)
+AttributeError: 'function' object has no attribute 'my_system'
+
+<<ERROR polling>>
+
+Sat Mar  4 11:10:54 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 268, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 178, in system_info
+    print(system_info.my_system.system)
+AttributeError: 'function' object has no attribute 'my_system'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 268, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 178, in system_info
+    print(system_info.my_system.system)
+AttributeError: 'function' object has no attribute 'my_system'
+
+<<ERROR polling>>
+
+Sat Mar  4 11:13:40 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 268, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 178, in system_info
+    print(system_info.MySystem)
+AttributeError: 'function' object has no attribute 'MySystem'
+
+<<ERROR polling>>
+
+Sat Mar  4 17:06:52 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 498, in username_check
+    soup = BeautifulSoup(response.text, 'lxml')
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 559, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 534, in handle_message
+    username_check()
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 525, in username_check
+    print(e.with_traceback())
+TypeError: BaseException.with_traceback() takes exactly one argument (0 given)
+
+<<ERROR polling>>
+
+Sat Mar  4 18:12:48 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 557, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 186, in system_info
+    for x, y in psutil.net_if_addrs():
+ValueError: too many values to unpack (expected 2)
+
+<<ERROR polling>>
+
+Sat Mar  4 18:17:20 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 561, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 190, in system_info
+    print(line.key)
+AttributeError: 'tuple' object has no attribute 'key'
+
+<<ERROR polling>>
+
+Sat Mar  4 18:24:23 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 561, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 189, in system_info
+    data_ips = psutil.net_if_addrs().json()
+AttributeError: 'dict' object has no attribute 'json'
+
+<<ERROR polling>>
+
+Sat Mar  4 18:25:26 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 561, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 189, in system_info
+    data_ips = json.loads(psutil.net_if_addrs())
+  File "C:\Users\alexandr\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+
+<<ERROR polling>>
+
+Sat Mar  4 18:27:28 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 561, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 189, in system_info
+    data_ips = psutil.net_if_addrs()['address']
+KeyError: 'address'
+
+<<ERROR polling>>
+
+Sat Mar  4 18:33:03 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 567, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 195, in system_info
+    print(line.keys())
+AttributeError: 'str' object has no attribute 'keys'
+
+<<ERROR polling>>
+
+Sat Mar  4 18:59:27 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 563, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 191, in system_info
+    for line in data.values()[1]:
+TypeError: 'dict_values' object is not subscriptable
+
+<<ERROR polling>>
+
+Sat Mar  4 19:01:51 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 566, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 194, in system_info
+    print(line[2])
+IndexError: tuple index out of range
+
+<<ERROR polling>>
+
+Sat Mar  4 19:03:08 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 567, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 194, in system_info
+    print(line['snicaddr'])
+TypeError: tuple indices must be integers or slices, not str
+
+<<ERROR polling>>
+
+Sat Mar  4 19:04:37 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 566, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 194, in system_info
+    print(line.split())
+AttributeError: 'tuple' object has no attribute 'split'
+
+<<ERROR polling>>
+
+Sat Mar  4 19:05:25 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 566, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 186, in system_info
+    print(psutil.net_if_addrs().AF_INET)
+AttributeError: 'dict' object has no attribute 'AF_INET'
+
+<<ERROR polling>>
+
+Sat Mar  4 19:10:17 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 569, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 191, in system_info
+    for x, y in data:
+ValueError: too many values to unpack (expected 2)
+
+<<ERROR polling>>
+
+Sat Mar  4 19:21:42 2023
+<<ERROR polling>>
+Traceback (most recent call last):
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 574, in polling
+    bot.polling(none_stop=True)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 1074, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 156, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\util.py", line 100, in run
+    task(*args, **kwargs)
+  File "C:\Users\alexandr\Desktop\bot\venv\lib\site-packages\telebot\__init__.py", line 6308, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\alexandr\Desktop\bot\bot.py", line 189, in system_info
+    data, value = psutil.net_if_addrs()
+ValueError: too many values to unpack (expected 2)
+
+<<ERROR polling>>
